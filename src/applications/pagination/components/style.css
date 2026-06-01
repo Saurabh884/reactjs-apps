@@ -1,0 +1,34 @@
+.app-container {
+  text-align: center;
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.item {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 10px;
+}
+.image {
+  width: 150px;
+  height: 150px;
+}
+.pagination {
+  margin: 10px auto;
+  padding: 5px;
+}
+.pagination button {
+  padding: 5px;
+  margin: 0 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  border: none;
+  width: 40px;
+}
+.isActive {
+  background-color: green;
+  color: white;
+}

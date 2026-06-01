@@ -1,7 +1,7 @@
-import "./App.css";
+import Pagination from "./applications/pagination/components/Pagination";
 
 function App() {
-  return <div>hello</div>;
+  return <Pagination />;
 }
 
 export default App;
