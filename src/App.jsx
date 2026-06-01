@@ -1,7 +1,7 @@
-import Pagination from "./applications/pagination/components/Pagination";
+import AutoComplete from "./applications/autocomplete-search/components/AutoComplete";
 
 function App() {
-  return <Pagination />;
+  return <AutoComplete />;
 }
 
 export default App;
