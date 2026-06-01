@@ -1,7 +1,8 @@
-import AutoComplete from "./applications/autocomplete-search/components/AutoComplete";
+import InfiniteScroll from "./applications/infinite-scroll/components/InfiniteScroll";
+import Pagination from "./applications/pagination/components/Pagination";
 
 function App() {
-  return <AutoComplete />;
+  return <InfiniteScroll />;
 }
 
 export default App;

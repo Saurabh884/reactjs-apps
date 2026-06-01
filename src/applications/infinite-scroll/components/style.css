@@ -1,0 +1,14 @@
+.app-container {
+  text-align: center;
+  margin: 10px auto;
+}
+.item-container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.item {
+  border: 1px solid gray;
+  border-radius: 8px;
+}

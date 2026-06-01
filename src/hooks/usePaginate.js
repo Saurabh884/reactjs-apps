@@ -27,10 +27,7 @@ const usePaginate = (url, PRODUCTS_PER_PAGE) => {
         setData(json?.products);
         setTotalPage(Math.ceil(json?.total / PRODUCTS_PER_PAGE));
       } catch (error) {
-        if (error instanceof Error) {
-          if (error.message !== "AbortError") {
-            return;
-          }
+        if (error instanceof Error && error.name !== "AbortError") {
           setIsError(error.message);
         }
       } finally {
