@@ -1,0 +1,47 @@
+.app-container {
+  text-align: center;
+  margin: 10px auto;
+}
+.input-container {
+  padding: 10px;
+}
+.input-container input {
+  width: 200px;
+  padding: 10px;
+  margin: 0 2px;
+}
+.input-container button {
+  padding: 10px;
+  margin: 0 2px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.table {
+  width: 100%;
+  padding: 10px;
+}
+.table thead {
+  background-color: black;
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.table body {
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+.table tbody button {
+  padding: 10px;
+  margin: 0 2px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.table tbody td {
+  border: 1px solid black;
+}

@@ -1,8 +1,7 @@
-import InfiniteScroll from "./applications/infinite-scroll/components/InfiniteScroll";
-import Pagination from "./applications/pagination/components/Pagination";
+import Todo from "./applications/todo/components/Todo";
 
 function App() {
-  return <InfiniteScroll />;
+  return <Todo />;
 }
 
 export default App;
