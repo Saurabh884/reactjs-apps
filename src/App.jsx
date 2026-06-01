@@ -1,7 +1,7 @@
-import Todo from "./applications/todo/components/Todo";
+import CustomInfiniteScroll from "./applications/custom-infinite-scroll/components/CustomInfiniteScroll";
 
 function App() {
-  return <Todo />;
+  return <CustomInfiniteScroll />;
 }
 
 export default App;
