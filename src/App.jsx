@@ -1,7 +1,7 @@
-import UseCallback from "./applications/hooks-components/useCallback/UseCallback";
+import UseLayoutEffect from "./applications/hooks-components/useLayoutEffect/UseLayoutEffect";
 
 function App() {
-  return <UseCallback />;
+  return <UseLayoutEffect />;
 }
 
 export default App;
