@@ -1,6 +1,9 @@
 .app-container {
   text-align: center;
 }
+.open {
+  cursor: pointer;
+}
 
 .modal-overlay {
   position: fixed;

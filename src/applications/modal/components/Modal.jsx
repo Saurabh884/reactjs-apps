@@ -6,7 +6,9 @@ const Modal = () => {
   return (
     <div className="app-container">
       <h3>Modal App</h3>
-      <button onClick={() => setShowModal(true)}>Open Modal</button>
+      <button className="open" onClick={() => setShowModal(true)}>
+        Open Modal
+      </button>
       {showModal && (
         <div onClick={() => setShowModal(false)} className="modal-overlay">
           <div className="modal">
