@@ -1,7 +1,8 @@
-import Alert from "./applications/alert/components/Alert";
+import UseReducer from "./applications/hooks-components/useReducer/UseReducer";
+import UseRef from "./applications/hooks-components/useRef/UseRef";
 
 function App() {
-  return <Alert />;
+  return <UseReducer />;
 }
 
 export default App;
