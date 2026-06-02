@@ -1,8 +1,7 @@
-import CustomInfiniteScroll from "./applications/custom-infinite-scroll/components/CustomInfiniteScroll";
-import Modal from "./applications/modal/components/Modal";
+import Alert from "./applications/alert/components/Alert";
 
 function App() {
-  return <Modal />;
+  return <Alert />;
 }
 
 export default App;

@@ -1,0 +1,43 @@
+.app-container {
+  text-align: center;
+  margin: 10px auto;
+}
+.buttons-container {
+  display: flex;
+  margin: 5px 5px;
+}
+.buttons-container button {
+  margin: 0 5px;
+  width: 60px;
+  cursor: pointer;
+}
+.alert-container {
+  margin: 10px auto;
+  padding: 10px;
+}
+.alert-item {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid black;
+  margin: 8px auto;
+  border-radius: 4px;
+  position: relative;
+  height: 30px;
+}
+.cross {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+.error {
+  background-color: red;
+  color: white;
+}
+.info {
+  background-color: aqua;
+  color: white;
+}
+.success {
+  background-color: green;
+  color: white;
+}
