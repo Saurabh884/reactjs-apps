@@ -1,9 +1,7 @@
-import UseMemo from "./applications/hooks-components/useMemo/UseMemo";
-import UseReducer from "./applications/hooks-components/useReducer/UseReducer";
-import UseRef from "./applications/hooks-components/useRef/UseRef";
+import UseCallback from "./applications/hooks-components/useCallback/UseCallback";
 
 function App() {
-  return <UseMemo />;
+  return <UseCallback />;
 }
 
 export default App;
