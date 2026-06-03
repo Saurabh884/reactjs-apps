@@ -1,7 +1,7 @@
-import UseLayoutEffect from "./applications/hooks-components/useLayoutEffect/UseLayoutEffect";
+import Timer from "./applications/timer/components/Timer";
 
 function App() {
-  return <UseLayoutEffect />;
+  return <Timer />;
 }
 
 export default App;
