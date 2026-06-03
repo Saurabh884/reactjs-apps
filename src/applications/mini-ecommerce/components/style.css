@@ -1,0 +1,29 @@
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: left;
+  line-height: 30px;
+}
+.image-container {
+  text-align: center;
+}
+.image {
+  width: 200px;
+  height: 200px;
+}
+.item {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.category {
+  background-color: rgb(236, 232, 232);
+  padding: 4px;
+  border-radius: 4px;
+  font-size: small;
+}
+.price {
+  font-weight: bold;
+}

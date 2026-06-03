@@ -1,7 +1,7 @@
-import Timer from "./applications/timer/components/Timer";
+import Ecommerce from "./applications/mini-ecommerce/components/Ecommerce";
 
 function App() {
-  return <Timer />;
+  return <Ecommerce />;
 }
 
 export default App;
