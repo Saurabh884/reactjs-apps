@@ -81,6 +81,12 @@ const Ecommerce = () => {
     return matchedSearchTerms && matchedCategories && matchedRatings;
   });
 
+  const handleClearFilters = () => {
+    setInput("");
+    setCategoryInput([]);
+    setRatingsStar(0);
+  };
+
   if (isLoading) return <h3>Loading.....</h3>;
   if (isError) return <div>{isError}</div>;
 
@@ -128,6 +134,9 @@ const Ecommerce = () => {
             </label>
           ))}
         </div>
+        <button onClick={handleClearFilters} className="clear-filter-btn">
+          Clear Filters
+        </button>
       </div>
       <div className="product-container">
         <div className="input-container">

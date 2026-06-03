@@ -77,3 +77,11 @@
 .empty-star {
   color: #d3d3d3;
 }
+.clear-filter-btn {
+  margin-top: 20px;
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+}
